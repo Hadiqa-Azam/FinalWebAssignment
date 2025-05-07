@@ -323,21 +323,23 @@ video:hover {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.contact-links a:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-.youtube { 
-  background: #ff4d4d;
+.instagram { 
+  background: #E1306C; /* Instagram's gradient start color */
+  background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
 }
 
 .github { 
-  background: #33cc33;
+  background: #333;
 }
 
-.linkedin { 
-  background: #3366cc;
+.email { 
+  background: #D44638; /* Gmail-like red */
+}
+
+/* Keep the existing hover effects */
+.contact-links a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 footer {
