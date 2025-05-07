@@ -91,3 +91,10 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('.contact').style.display = 'block';
   }, 100);
 });
+document.querySelector('a[href="#"]').addEventListener('click', function(e) {
+  e.preventDefault();
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
